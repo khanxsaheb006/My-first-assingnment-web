@@ -13,7 +13,7 @@ body {
   color: #111;
 }
 header {
-  background-image: url(images/Hero-bg.png);
+  background-image: url(../Assets/Hero-bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -85,4 +85,35 @@ header {
 .stat h3 {
   font-size: 32px;
   color: #3f3fff;
+}
+.feedbacks {
+  background: #fff;
+  padding: 48px 16px;
+  text-align: center;
+}
+
+.card {
+  background: #f2f4f8;
+  padding: 16px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin: 8px auto;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.user-details {
+  text-align: left;
 }
